@@ -196,7 +196,7 @@ export const CampaignsList: React.FC = () => {
                 <option value="All">All</option>
                 <option value="Lead">Lead</option>
                 <option value="Customer">Customer</option>
-                <option value="Csv_campaign">Csv_campaign</option>
+                <option value="Vendor">Vendor</option>
               </select>
             </div>
 

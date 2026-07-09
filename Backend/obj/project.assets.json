@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "targets": {
     "net10.0": {
       "AngleSharp/0.17.1": {
@@ -3216,19 +3216,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/tusharvashisht/.nuget/packages/": {}
+    "C:\\Users\\Ashok-windows\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/tusharvashisht/Downloads/WabaConnect/Backend/WhatsAppCampaignApi.csproj",
+      "projectUniqueName": "C:\\Users\\Ashok-windows\\Downloads\\Waba-Connect\\Backend\\WhatsAppCampaignApi.csproj",
       "projectName": "WhatsAppCampaignApi",
-      "projectPath": "/Users/tusharvashisht/Downloads/WabaConnect/Backend/WhatsAppCampaignApi.csproj",
-      "packagesPath": "/Users/tusharvashisht/.nuget/packages/",
-      "outputPath": "/Users/tusharvashisht/Downloads/WabaConnect/Backend/obj/",
+      "projectPath": "C:\\Users\\Ashok-windows\\Downloads\\Waba-Connect\\Backend\\WhatsAppCampaignApi.csproj",
+      "packagesPath": "C:\\Users\\Ashok-windows\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Ashok-windows\\Downloads\\Waba-Connect\\Backend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/tusharvashisht/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Ashok-windows\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
@@ -3238,6 +3238,7 @@
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {}
         }
@@ -3252,10 +3253,11 @@
         "auditLevel": "low",
         "auditMode": "all"
       },
-      "SdkAnalysisLevel": "10.0.200"
+      "SdkAnalysisLevel": "10.0.300"
     },
     "frameworks": {
       "net10.0": {
+        "framework": "net10.0",
         "targetAlias": "net10.0",
         "dependencies": {
           "FluentValidation.AspNetCore": {
@@ -3316,7 +3318,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.203/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",

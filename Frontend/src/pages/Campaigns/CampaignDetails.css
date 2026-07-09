@@ -171,3 +171,12 @@
 .btn-resume-campaign:hover {
   background-color: #059669;
 }
+
+.campaign-recipient-error {
+  margin-top: 6px;
+  max-width: 360px;
+  color: #dc2626;
+  font-size: 11px;
+  line-height: 1.4;
+  white-space: normal;
+}

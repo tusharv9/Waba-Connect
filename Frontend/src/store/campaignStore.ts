@@ -203,7 +203,7 @@ export const useCampaignStore = create<CampaignStoreState>((set, get) => ({
   },
   
   toggleCampaignPause: async (id) => {
-    const camp = get().campaigns.find(c => c.id === id)
+    const camp = get().campaigns.find(c => c.id === id) || get().selectedCampaign
     if (!camp) return
     
     set({ isLoading: true })
@@ -220,7 +220,8 @@ export const useCampaignStore = create<CampaignStoreState>((set, get) => ({
         const details = await campaignService.getCampaignDetails(id)
         set({
           selectedCampaign: details.campaign,
-          selectedStats: details.statistics
+          selectedStats: details.statistics,
+          selectedRecipients: details.recipients
         })
       }
       
